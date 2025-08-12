@@ -1,0 +1,7 @@
+git clone https://github.com/ARM-software/CMSIS_5 CMSIS
+
+https://github.com/STMicroelectronics/cmsis-device-g0
+https://github.com/STMicroelectronics/cmsis-device-f0
+
+git clone https://github.com/STMicroelectronics/cmsis_device_f0 STM32F0
+git clone https://github.com/STMicroelectronics/cmsis_device_g0 STM32G0

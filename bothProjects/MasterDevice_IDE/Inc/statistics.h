@@ -1,0 +1,26 @@
+#ifndef STATISTICS_H_
+#define STATISTICS_H_
+
+#include "stdint.h"
+
+#define STAT_EVENTS_E220_BADCRC_INDEX 	0
+#define STAT_EVENTS_E220_BADSIZE_INDEX 	1
+#define STAT_EVENTS_E220_UNKNOWN_INDEX 	2
+
+#define STAT_EVENTS_E220_NUMBER 3			//		###
+
+// * * *
+
+#define STAT_EVENTS_USB_BADCRC_INDEX 	0
+#define STAT_EVENTS_USB_BADSIZE_INDEX 	1
+#define STAT_EVENTS_USB_UNKNOWN_INDEX 	2
+
+#define STAT_EVENTS_USB_NUMBER 3			//		###
+
+struct STATICTICS_i {
+
+	uint32_t Events_E220[STAT_EVENTS_E220_NUMBER];		// come from E220_900T30D
+	uint32_t Events_USB[STAT_EVENTS_USB_NUMBER];		// come from USB
+};
+
+#endif

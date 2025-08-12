@@ -1,0 +1,2 @@
+Python 3.12
+pycharm 2024.2.3

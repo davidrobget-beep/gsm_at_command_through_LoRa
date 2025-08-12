@@ -1,0 +1,1 @@
+dont use g031f6_onlyGUI.ioc for regenerating cubeide project.

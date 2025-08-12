@@ -1,0 +1,19 @@
+#ifndef STATISTICS_H_
+#define STATISTICS_H_
+
+#include "stdint.h"
+
+#define STAT_EVENTS_E220_BADCRC_INDEX 	0
+#define STAT_EVENTS_E220_BADSIZE_INDEX 	1
+#define STAT_EVENTS_E220_UNKNOWN_INDEX 	2
+
+#define STAT_EVENTS_E220_NUMBER 3			//		###
+
+struct STATICTICS_i {
+
+	uint32_t Events_E220[STAT_EVENTS_E220_NUMBER];		// come from E220_900T30D
+	//uint32_t Events_MODEM[STAT_EVENTS_MODEM_NUMBER];
+
+};
+
+#endif
